@@ -1,5 +1,5 @@
 {% set name = "napari-plot" %}
-{% set version = "0.1.2" %}
+{% set version = "0.1.4" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/napari_plot-{{ version }}.tar.gz
-  sha256: 0ba384f3cf6e4dd6405910d594c1e89a16362d562f566862b3c50d101d209390
+  sha256: 77f0e0c3b595ff6f68d7297c9de79f4e1ca49c08abbe7b93ef17904d1a297e62
 
 build:
   noarch: python
